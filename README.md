@@ -16,6 +16,16 @@ npm run dev # run the API in development mode
 npm run prod # run the API in production mode
 npm run docs # generate API docs
 ```
+# Docker
+
+## Construção da Imagem
+|powershell|
+docker build -t loja-backend .
+docker run -d --name loja-backend -p 3000:3000 loja-backend
+
+# Link do dockerhub
+
+https://hub.docker.com/repository/docker/riigs/loja-backend/general
 
 ## Playing locally
 
